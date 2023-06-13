@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.box {
+
+    overflow: hidden;
+    border-radius: 20px;
+    height: 380px;
+    width: 300px;
+    transition: box-shadow 0.2s;
+    position: relative;
+    user-select: none;
+}
+
+
+
+.box img {
+
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+
+.buttom-save {
+
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100px);
+    transition: transform .2s;
+    
+    
+}
+
+.buttom-save p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.link p {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.link {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    height: 40px;
+    width: 55%;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.upload,.info {
+
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.upload {
+
+    left: 65%;
+
+}
+
+.info {
+    left: 80%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 300;
+    
+}
+
+.info,.link,.upload {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    transition: transform .2s;
+
+}
+
+ .info,.upload ion-icon {
+    font-size: 30px;
+}
+
+.link ion-icon {
+
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transform: rotate(-45deg);
+
+}
+
+.box:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  }
+
+  .box:hover .transition {
+    transform: translateY(0); 
+
+  }
