@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateY(-100px);
-    transition: transform .2s;
+    transition: 0.3s;
 
 
 }
@@ -104,7 +104,8 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateY(100px);
-    transition: transform .2s;
+    transition: 0.3s;
+    
 
 }
 
