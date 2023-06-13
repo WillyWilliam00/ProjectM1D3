@@ -125,9 +125,11 @@ body {
 
 .box:hover .transition {
     transform: translateY(0);
+    cursor: pointer;
 }
 
 img:hover {
     filter:brightness(40%);
     
 }
+
