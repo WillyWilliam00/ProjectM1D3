@@ -126,11 +126,24 @@ body {
 
 .box:hover .transition {
     transform: translateY(0);
-    cursor: pointer;
+    
+    
+    
 }
 
-img:hover {
-    filter:brightness(40%);
+.box:hover img{
+    filter: brightness(70%);
+}
+
+.transition:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+
+}
+
+.box:hover {
+    height: 390px;
+    width: 310px;
     
 }
 
